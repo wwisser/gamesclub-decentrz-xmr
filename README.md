@@ -3,4 +3,4 @@ Welcome to the GamesClub Monero Casino, where we promise thrills, chills, and an
 
 
 ## Contact us
-![Follow us on @X](https://pbs.twimg.com/profile_images/705029914957889537/YzznZEjZ_400x400.jpg)
+![x.com/gamesclubme](https://pbs.twimg.com/profile_images/705029914957889537/YzznZEjZ_400x400.jpg)
