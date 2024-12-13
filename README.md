@@ -2,5 +2,5 @@
 Welcome to the GamesClub Monero Casino, where we promise thrills, chills, and an occasional spill of your virtual wallet! This isn't your average casino; this is where you learn to lose with style, all from the comfort of your browser.
 
 
-## Contact us
-![x.com/gamesclubme](https://pbs.twimg.com/profile_images/705029914957889537/YzznZEjZ_400x400.jpg)
+## Contact u
+![https://x.com/gamesclubme](https://pbs.twimg.com/profile_images/705029914957889537/YzznZEjZ_400x400.jpg)
