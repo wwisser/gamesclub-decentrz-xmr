@@ -4,49 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GamesClub XMR Casino</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #87CEEB; /* Sky color from Minecraft */
+            font-family: 'Minecraftia', monospace;
+        }
+        .hero {
+            background-image: url('minecraft_background.jpg');
+            background-size: cover;
+            text-align: center;
+            padding: 80px 0;
+            color: white;
+        }
+        .hero-title {
+            font-size: 4em;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .hero-subtitle {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .hero-image {
+            width: 200px;
+            height: auto;
+            border-radius: 50%;
+            border: 5px solid #6A0DAD; /* Purple like in Minecraft's creative inventory */
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            text-decoration: none;
+            color: white;
+            background-color: #6A0DAD;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #800080;
+        }
+        .cards-section, .info-section {
+            background: #A9A9A9; /* Dark stone color */
+            padding: 40px;
+            margin: 20px 0;
+        }
+        .card {
+            background: #DCDCDC; /* Light stone color */
+            border: 2px solid #8B4513; /* Wood color */
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+        .card-image {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+        .footer {
+            background: #464646; /* Darker stone for footer */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 <body>
 <header class="hero">
     <div class="hero-content">
         <h1 class="hero-title">GamesClub XMR Casino</h1>
-        <p class="hero-subtitle">Where thrills, chills, and virtual spills meet in style!</p>
+        <p class="hero-subtitle">Where Creeper Explosions Meet Crystal Wins!</p>
         <img src="https://pbs.twimg.com/profile_images/705029914957889537/YzznZEjZ_400x400.jpg" alt="GamesClub Logo" class="hero-image">
         <div class="hero-actions">
-            <a href="#games" class="button button-large button-primary">Start Playing</a>
-            <a href="#docs" class="button button-large button-secondary">Learn More</a>
+            <a href="#games" class="button button-large button-primary">Mine for Wins</a>
+            <a href="#docs" class="button button-large button-secondary">Craft Your Knowledge</a>
         </div>
     </div>
 </header>
 
 <main>
     <section id="games" class="cards-section">
-        <h2 class="section-title">Our Games</h2>
-        <p class="section-subtitle">Explore our wide range of games and challenges!</p>
+        <h2 class="section-title">Dig Into Our Games</h2>
+        <p class="section-subtitle">Explore our pixelated playground!</p>
         <div class="cards">
             <div class="card">
-                <img src="/images/nextjs.svg" alt="Poker" class="card-image">
-                <h3 class="card-title">Poker Nights</h3>
-                <p class="card-text">Show off your poker face or bluff your way to victory!</p>
+                <img src="/images/diamond.png" alt="Poker" class="card-image">
+                <h3 class="card-title">Diamond Poker</h3>
+                <p class="card-text">Bluff with blocks or fold like foliage!</p>
                 <a href="#play-poker" class="button">Play Now</a>
             </div>
             <div class="card">
-                <img src="/images/mui-5.svg" alt="Slots" class="card-image">
-                <h3 class="card-title">Crypto Slots</h3>
-                <p class="card-text">Spin the reels and let fate decide your fortune.</p>
+                <img src="/images/emerald.png" alt="Slots" class="card-image">
+                <h3 class="card-title">Emerald Slots</h3>
+                <p class="card-text">Spin for emeralds; luck of the villager!</p>
                 <a href="#play-slots" class="button">Play Now</a>
             </div>
             <div class="card">
-                <img src="/images/ts.svg" alt="Blackjack" class="card-image">
-                <h3 class="card-title">Blackjack Blitz</h3>
-                <p class="card-text">Challenge the dealer in this classic card game.</p>
+                <img src="/images/gold.png" alt="Blackjack" class="card-image">
+                <h3 class="card-title">Gold Rush Blackjack</h3>
+                <p class="card-text">21 or bust, like mining for gold!</p>
                 <a href="#play-blackjack" class="button">Play Now</a>
             </div>
         </div>
     </section>
 
     <section id="staff" class="info-section">
-        <h2 class="section-title">Meet the Staff</h2>
+        <h2 class="section-title">Meet the Builders</h2>
         <ul class="staff-list">
             <li><strong>AI:</strong> <a href="https://x.com/NovaSkyDE">@NovaSkyDE</a></li>
             <li><strong>Owner:</strong> <a href="https://x.com/gcOoby">@gcOoby</a></li>
@@ -60,14 +122,14 @@
 
     <section id="platforms" class="info-section">
         <h2 class="section-title">Platforms</h2>
-        <p class="section-text">Check out our mobile edition (WIP):</p>
+        <p class="section-text">Explore our mobile portal (WIP):</p>
         <p><a href="https://x.com/GamesClubMePE" class="button">Mobile Edition</a></p>
     </section>
 </main>
 
 <footer class="footer">
-    <p>&copy; 2024 GamesClub XMR Casino. All rights reserved.</p>
-    <p>Disclaimer: This is a mock-up site for entertainment purposes only.</p>
+    <p>© 2024 GamesClub XMR Casino. All Rights Reserved.</p>
+    <p>Disclaimer: This site is a mock-up for entertainment, not for actual gambling.</p>
 </footer>
 </body>
 </html>
